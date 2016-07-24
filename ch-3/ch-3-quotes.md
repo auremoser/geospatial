@@ -42,6 +42,7 @@ EVOLUTION FROM SMALL BEGINNINGS
 
 "Several of our core products started as a hackathon project.  One of my hackathon projects evolved to process billions of geo annotations every day."
 
+"The open source ecosystem is great, and is, in fact, likely superior to the commercial offerings which seem behind the times.  Tools like Postgis, Solr, and Elasticsearch should not be overlooked as people overestimate the big-ness of their data.  Geospatial data, at true big data scale, doesn’t yet have an obvious silver bullet technology that makes everything great and easy.  It will, in any event, require very capable (and likely expensive) engineers to harness.  It’s hard for me to imagine a general purpose big data tool that can abstract away the geo-specific knowledge required to analyze this data efficiently."
 
 **Tyler Bell, Factual (referred by DJ Patil), now Mapbox**
 
@@ -60,7 +61,17 @@ EVOLUTION
 **Riley Newcomb, Airbnb**
 
 ANALYTICS
-"the phenomena surrounding and complicating what is interestin gabout eodata naturally draws us to want more processing power, the ability to aggregate and compare more disparate datasets, the ability to inform one mapped trend with another...."it’s at the heart of the information revolution underway.""
+"the phenomena surrounding and complicating what is interesting about eodata naturally draws us to want more processing power, the ability to aggregate and compare more disparate datasets, the ability to inform one mapped trend with another...."it’s at the heart of the information revolution underway.""
+
+TOOLS
+
+""Our standard set of tools and technologies are: AWS/hadoop/hive/presto/spark (data infrastructure), R & Python for analysis, Tableau for run-of-the-mill visualizations (especially since their collaboration with Stamen design for geo plotting), and then specialized tools for custom visualizations (Rbnb/Airpy, D3, Processing, Tilemill)
+Also worth discussing: core_data, the knowledge repo, the ERF (all homegrown tools)
+""
+
+OPEN DATA
+
+"SF’s OpenData project is a great example. Making data public can lead to all kinds of projects that benefit the community without requiring public resources. It lowers the barrier to entry for NGOs and crowdsources innovative solutions to public issues. The more of this we can do, the better."
 
 **Stefan Avesand, Ericsson Smartphone Labs**
 OPENDATA
@@ -73,3 +84,18 @@ OPEN DATA
 "ESRI is the Microsoft of the geospatial world, for better or for worse, and it’s very expensive stuff. You can do a lot of great stuff with OSS, and gov’t agencies should be more open to that.
 "
 
+**Rainer Sternfeld, Founder + CEO, Planet OS**
+TOOLS
+""Apache Spark lets us do the analysis we need to to understand and index some of the massive datasets we process.
+HBase gives us a platform for storing and retrieval the results of distributed computations
+ElasticSearch gives us a nice platform for free-text and polygonal retrieval
+Mesos and various projects built on Mesos give us a stable compute infrastructure.
+
+While members of our team contribute to various open source projects (such as D3 and Clojure), our contributions in the geo/big data have been small so far. Hopefully we will increase our activity here over the next year or so. PlanetOS has begun releasing front-end code such as the cirrusjs library for visualization (https://planetos.com/blog/cirrus-js/) and we will continue to release visualization, data processing, and analytics code as we see the opportunity.""
+
+**Stefan Avesand, Ericsson Smartphone Labs**
+
+TOOLS
+
+"We use a large flora of tools at Ericsson, both commercial and open source. These include e.g. PostgreSQL/PostGIS, Hadoop/Hive, Mapnik, CartoDB, OpenLayers, ArcGIS, TatukGIS and Tableau.
+"
